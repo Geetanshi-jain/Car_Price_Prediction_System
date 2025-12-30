@@ -1,0 +1,6 @@
+streamlit
+numpy
+pandas
+scikit-learn
+joblib
+AIzaSyAN1LYkNN6YGxKZNsIZJJ6zgEetDgjulZA
