@@ -28,7 +28,10 @@ with col_b:
 # ===================== GEMINI CLIENT =====================
 
 # Configure the API key
+
+
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 
 # ===================== LOAD MODEL =====================
@@ -60,11 +63,11 @@ Car Details: {input_data}
 Predicted Price: {predicted_price} Lakhs
 Future Prices: {list(zip(years, prices))}
 """
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt
-    )
+
+    response = model.generate_content(prompt)
+
     return "\n".join(response.text.strip().split("\n")[:5])
+
 
 
 def save_depreciation_graph(years, prices):
