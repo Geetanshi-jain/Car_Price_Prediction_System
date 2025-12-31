@@ -26,7 +26,9 @@ with col_b:
     st.session_state.mobile_view = st.toggle("📱 Mobile View")
 
 # ===================== GEMINI CLIENT =====================
-client = genai.Client(api_key=st.secrets["GOOGLE_API_KEY"])
+
+# Configure the API key
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 
 # ===================== LOAD MODEL =====================
