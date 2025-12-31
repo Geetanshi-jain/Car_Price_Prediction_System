@@ -42,20 +42,26 @@ The system supports both **desktop** and **mobile view**, with **mobile view pro
 
 ## 🔹 Installation & Setup
 
-1. Clone the repository:
+
+1. ✅ **Clone the repository:**
 ```bash
 git clone https://github.com/Geetanshi-jain/Car_Price_Prediction_System.git
 cd Car_Price_Prediction_System
 
-##. Create a virtual environment (recommended):
 
+2.✅ Create a virtual environment (recommended):
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-Install dependencies:
+
+3. ✅ Install dependencies:
 pip install -r requirements.txt
-Run the app:
+
+4. ✅ Run the app:
 streamlit run app.py
+
+---
+
 🔹 How it Works
 
 Enter car details: company, year, present price, kilometers driven, fuel type, seller type, transmission, owner.
@@ -72,9 +78,6 @@ Best time to sell
 
 AI explanation
 
-Optionally download PDF report.
-🔹 Screenshots
-🔹 Contact
 
 GitHub: Geetanshi-jain
 
