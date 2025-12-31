@@ -42,7 +42,6 @@ The system supports both **desktop** and **mobile view**, with **mobile view pro
 
 ## 🔹 Installation & Setup
 
-
 1. ✅ **Clone the repository:**
 ```bash
 git clone https://github.com/Geetanshi-jain/Car_Price_Prediction_System.git
@@ -62,23 +61,3 @@ streamlit run app.py
 
 ---
 
-🔹 How it Works
-
-Enter car details: company, year, present price, kilometers driven, fuel type, seller type, transmission, owner.
-
-Click Predict Car Price (Mobile: step-by-step flow).
-
-View:
-
-Predicted price
-
-Depreciation graph
-
-Best time to sell
-
-AI explanation
-
-
-GitHub: Geetanshi-jain
-
-Email: geetanshi@gmail.com
