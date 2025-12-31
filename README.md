@@ -47,7 +47,7 @@ The system supports both **desktop** and **mobile view**, with **mobile view pro
 git clone https://github.com/Geetanshi-jain/Car_Price_Prediction_System.git
 cd Car_Price_Prediction_System
 
-2. Create a virtual environment (recommended):
+##. Create a virtual environment (recommended):
 
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
