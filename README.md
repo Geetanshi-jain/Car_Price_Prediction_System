@@ -1,6 +1,6 @@
 # 🚗 Car Price Prediction System
 
-![Streamlit](https://img.shields.io/badge/Streamlit-App-green)
+![Streamlit]([https://img.shields.io/badge/Streamlit-App-green](https://carpricepredictionsystem-geet122005.streamlit.app/))
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 
 ---
