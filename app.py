@@ -31,7 +31,7 @@ with col_b:
 
 
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
-model = genai.GenerativeModel("gemini-2.5-flash")
+gen_model = genai.GenerativeModel("gemini-2.5-flash")
 
 
 # ===================== LOAD MODEL =====================
@@ -64,7 +64,7 @@ Predicted Price: {predicted_price} Lakhs
 Future Prices: {list(zip(years, prices))}
 """
 
-    response = model.generate_content(prompt)
+    response = gen_model.generate_content(prompt)
 
     return "\n".join(response.text.strip().split("\n")[:5])
 
