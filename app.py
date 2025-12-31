@@ -224,6 +224,13 @@ elif feature == "Download PDF Report":
     )
     graph_path = save_depreciation_graph(future_years, future_prices)
     pdf_path = generate_pdf(base_input, predicted_price, explanation, graph_path)
+        # Download button
 
-    with open(pdf_path, "rb") as f:
-        st.download_button("📄 Download Report", f)
+ with open(pdf_path, "rb") as f:
+        st.download_button(
+            label="📄 Download Report",
+            data=f,
+            file_name="car_price_report.pdf",  # Specify PDF extension
+            mime="application/pdf"
+        )
+   
