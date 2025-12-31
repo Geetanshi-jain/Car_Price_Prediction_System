@@ -4,3 +4,6 @@ numpy
 matplotlib
 scikit-learn
 joblib
+
+# Google Gemini SDK
+google-generativeai
